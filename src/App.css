@@ -1,6 +1,81 @@
 .App {
   text-align: center;
 }
+.inputField {
+  background-color: rgb(90, 201, 168);
+  height: 480px;
+  width: 360px;
+  position: absolute;
+  right: 100px;
+  border-radius: 10px;
+  margin-top: 80px;
+  padding: 20px;
+  
+}
+.dashInvt{
+  height: 250px;
+  width: 500px;
+  background-color: red;
+  margin: 15px;
+  border-radius: 10px;
+  
+}
+.dashImg{
+  height: 220px;
+  width: 350px;
+  margin: 15px;
+}
+span{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: large ;
+  
+}
+.deleteBtn{
+  float: right;
+  margin-right: 10px;
+  margin-top: -50px;
+  background-color: rgb(57, 224, 197);
+  border-radius: 5px;
+  
+}
+.editBtn{
+  float: right;
+  margin-right: 80px;
+  margin-top: -50px;
+  background-color: rgb(57, 224, 197);
+  border-radius: 5px;
+  
+}
+
+.urlImg {
+  background-color: white;
+  height: 170px;
+  width: 350px;
+
+}
+input{
+  width: 350px;
+  height: 20px;
+}
+
+.cancelBtn {
+  background-color: rgb(224, 105, 105);
+  border-radius: 5px;
+  height: 30px;
+  position: absolute;
+  left: 21px;
+  
+}
+.AddBtn {
+  background-color: rgb(224, 105, 105);
+  border-radius: 5px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  
+}
 
 .App-logo {
   height: 40vmin;
@@ -14,16 +89,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: red;
+  min-height: 8vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: left;
+  justify-content: left;
+  font-size: 20px;
   color: white;
+  padding-left: 100px;
 }
 
+h1 {
+  margin-left: 5px;
+}
+ img {
+   margin-top: 30px;
+   
+ }
 .App-link {
   color: #61dafb;
 }
